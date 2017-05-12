@@ -32,7 +32,7 @@ import com.oreilly.servlet.ServletUtils;
  * @author : <a href="mailto:hnxyhcwdl1003@163.com">wandalong</a>
  * @date : 下午5:48:58 2013-10-23
  */
-public class FileStreamResult extends AbstractStreamResult {
+public class FileStreamResult extends StreamResultSupport {
 
 	private static final long serialVersionUID = -1468409635999059850L;
 
@@ -42,7 +42,7 @@ public class FileStreamResult extends AbstractStreamResult {
 	
 
 	/**
-	 * @see com.fastkit.struts2.result.types.AbstractStreamResult#doExecute(java.lang.String,com.opensymphony.xwork2.ActionInvocation)
+	 * @see com.StreamResultSupport.struts2.result.types.AbstractStreamResult#doExecute(java.lang.String,com.opensymphony.xwork2.ActionInvocation)
 	 */
 	protected void doResultExecute(String finalLocation, ActionInvocation invocation,HttpServletRequest request,HttpServletResponse response) throws Exception {
 		

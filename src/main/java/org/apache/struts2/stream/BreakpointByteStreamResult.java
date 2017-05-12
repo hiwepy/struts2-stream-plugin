@@ -30,7 +30,7 @@ public class BreakpointByteStreamResult extends ByteStreamResult {
 	protected static Logger LOG = LoggerFactory.getLogger(BreakpointByteStreamResult.class);
 	
 	/**
-	 * @see com.fastkit.struts2.result.types.AbstractStreamResult#doExecute(java.lang.String,com.opensymphony.xwork2.ActionInvocation)
+	 * @see com.StreamResultSupport.struts2.result.types.AbstractStreamResult#doExecute(java.lang.String,com.opensymphony.xwork2.ActionInvocation)
 	 */
 	@Override
 	protected void doResultExecute(String finalLocation, ActionInvocation invocation,HttpServletRequest request,HttpServletResponse response) throws Exception {

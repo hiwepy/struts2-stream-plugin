@@ -31,7 +31,7 @@ import com.opensymphony.xwork2.ActionInvocation;
  * &lt;/result&gt;
  * <!-- END SNIPPET: example --></pre>
  */
-public class ByteStreamResult extends AbstractStreamResult {
+public class ByteStreamResult extends StreamResultSupport {
 
     private static final long serialVersionUID = -1468409635999059850L;
 
@@ -40,7 +40,7 @@ public class ByteStreamResult extends AbstractStreamResult {
     protected String inputName = "inputBytes";
 
     /**
-     * @see com.fastkit.struts2.result.types.AbstractStreamResult#doExecute(java.lang.String, com.opensymphony.xwork2.ActionInvocation)
+     * @see com.StreamResultSupport.struts2.result.types.AbstractStreamResult#doExecute(java.lang.String, com.opensymphony.xwork2.ActionInvocation)
      */
     protected void doResultExecute(String finalLocation, ActionInvocation invocation,HttpServletRequest request,HttpServletResponse response) throws Exception {
 

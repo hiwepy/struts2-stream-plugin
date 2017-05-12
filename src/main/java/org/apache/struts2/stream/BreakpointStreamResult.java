@@ -35,13 +35,13 @@ import com.opensymphony.xwork2.ActionInvocation;
  * @modify date :
  * @modify description :
  */
-public class BreakpointStreamResult extends AbstractStreamResult {
+public class BreakpointStreamResult extends StreamResultSupport {
 
 	private static final long serialVersionUID = -256643510497634924L;
 	protected static Logger LOG = LoggerFactory.getLogger(BreakpointStreamResult.class);
 	
 	/**
-	 * @see com.fastkit.struts2.result.types.AbstractStreamResult#doExecute(java.lang.String,com.opensymphony.xwork2.ActionInvocation)
+	 * @see com.StreamResultSupport.struts2.result.types.AbstractStreamResult#doExecute(java.lang.String,com.opensymphony.xwork2.ActionInvocation)
 	 */
 	@Override
 	protected void doResultExecute(String finalLocation, ActionInvocation invocation,HttpServletRequest request,HttpServletResponse response) throws Exception {
