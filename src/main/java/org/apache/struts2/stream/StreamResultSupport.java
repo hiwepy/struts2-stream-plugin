@@ -15,16 +15,7 @@ import org.slf4j.LoggerFactory;
 
 import com.opensymphony.xwork2.ActionInvocation;
 import com.opensymphony.xwork2.util.ValueStack;
-/**
- * 
- * *******************************************************************
- * @className	： AbstractStreamResult
- * @description	： 抽象的数据流结果对象
- * @author 		： <a href="mailto:hnxyhcwdl1003@163.com">wandalong</a>
- * @date		： Mar 8, 2016 9:56:13 PM
- * @version 	V1.0 
- * *******************************************************************
- */
+
 @SuppressWarnings("serial")
 public abstract class StreamResultSupport extends StrutsResultSupport {
 
