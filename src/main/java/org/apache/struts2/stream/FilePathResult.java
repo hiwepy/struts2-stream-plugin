@@ -17,8 +17,8 @@ import com.oreilly.servlet.ServletUtils;
 
 /**
  * 
- * @className: FileStreamResult
- * @description: 文件结果流处理，结合COS的稳定与struts2的便利，实现文件的下载，从而替换直接访问文件的方式
+ * @className	： FilePathResult
+  * @description: 文件结果流处理，结合COS的稳定与struts2的便利，实现文件的下载，从而替换直接访问文件的方式
  * <b>Example:</b>
  * <pre>
  * <!-- START SNIPPET: example -->
@@ -31,8 +31,9 @@ import com.oreilly.servlet.ServletUtils;
  * &lt;/result&gt;
  * <!-- END SNIPPET: example -->
  * </pre>
- * @author : <a href="mailto:hnxyhcwdl1003@163.com">wandalong</a>
- * @date : 下午5:48:58 2013-10-23
+ * @author 		： <a href="https://github.com/vindell">vindell</a>
+ * @date		： 2017年9月12日 下午10:55:53
+ * @version 	V1.0
  */
 public class FilePathResult extends StreamResultSupport {
 

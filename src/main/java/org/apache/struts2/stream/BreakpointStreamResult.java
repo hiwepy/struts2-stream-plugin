@@ -15,7 +15,7 @@ import com.opensymphony.xwork2.ActionInvocation;
 
 /**
  * 
- * @className: BreakpointStreamResult
+ * @className	： BreakpointStreamResult
  * @description: 输入流处理;支持断点续传文件输出流，对StreamResult做了增强，支持断点续传方式（多线程）下载同时也支持普通方式（单线程）下载
  * <b>Example:</b>
  * <pre>
@@ -29,11 +29,9 @@ import com.opensymphony.xwork2.ActionInvocation;
  * &lt;/result&gt;
  * <!-- END SNIPPET: example -->
  * </pre>
- * @author : wandalong
- * @date : 下午01:09:44 2015-4-26
- * @modify by:
- * @modify date :
- * @modify description :
+ * @author 		： <a href="https://github.com/vindell">vindell</a>
+ * @date		： 2017年9月12日 下午10:56:30
+ * @version 	V1.0
  */
 public class BreakpointStreamResult extends StreamResultSupport {
 

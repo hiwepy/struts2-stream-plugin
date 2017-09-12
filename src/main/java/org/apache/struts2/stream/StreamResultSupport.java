@@ -168,14 +168,14 @@ public abstract class StreamResultSupport extends StrutsResultSupport {
 
 	/**
 	 * 
-	 * @description: 扩展struts自带的doExecute
-	 * @author : wandalong
-	 * @date 上午10:57:24 2015-4-26
+	 * @description	： 扩展struts自带的doExecute
+	 * @author 		： <a href="https://github.com/vindell">vindell</a>
+	 * @date 		：2017年9月12日 下午10:55:27
 	 * @param finalLocation
 	 * @param invocation
+	 * @param request
+	 * @param response
 	 * @throws Exception
-	 * @return void 返回类型
-	 * @throws
 	 */
 	protected abstract void doResultExecute(String finalLocation,ActionInvocation invocation,HttpServletRequest request,HttpServletResponse response) throws Exception;
 
@@ -365,17 +365,15 @@ public abstract class StreamResultSupport extends StrutsResultSupport {
 	
 	/**
 	 * 
-	 * @description: 关于下载中文文件名的问题，不同浏览器需要使用不同的编码，下载前要在Java中进行文件名编码
+	 * @description	： 关于下载中文文件名的问题，不同浏览器需要使用不同的编码，下载前要在Java中进行文件名编码
 	 *  			 在多数浏览器中使用 UTF8 ，而在 firefox 和 safari 中使用 ISO8859-1 。
 	 *  			 经测试在 IE、Firefox、Chorme、Safari、Opera 上都能正常显示中文文件名（只测试了较新的浏览器）
-	 * @author : wandalong
-	 * @date 下午07:03:10 2015-4-25 
-	 * @param req
+	 * @author 		： <a href="https://github.com/vindell">vindell</a>
+	 * @date 		：2017年9月12日 下午10:55:18
+	 * @param request
 	 * @param name
 	 * @return
 	 * @throws UnsupportedEncodingException
-	 * @return  String 返回类型
-	 * @throws  
 	 */
 	public String getEncodeFileName(HttpServletRequest request, String name) throws UnsupportedEncodingException {
 		String agent = request.getHeader("USER-AGENT").toLowerCase();

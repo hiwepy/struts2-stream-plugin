@@ -17,10 +17,12 @@ import org.slf4j.LoggerFactory;
 import com.opensymphony.xwork2.ActionInvocation;
 
 /**
+ * 
  * @className	： BreakpointFilePathResult
  * @description	： 对StreamResult做了增强，支持断点续传方式（多线程）下载同时也支持普通方式（单线程）下载
- * @author 		： <a href="mailto:hnxyhcwdl1003@163.com">wandalong</a>
- * @date		： 2015-6-5 下午06:49:23
+ * @author 		： <a href="https://github.com/vindell">vindell</a>
+ * @date		： 2017年9月12日 下午10:56:58
+ * @version 	V1.0
  */
 public class BreakpointFilePathResult extends FilePathResult {
 

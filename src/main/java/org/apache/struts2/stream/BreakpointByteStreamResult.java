@@ -16,13 +16,11 @@ import com.opensymphony.xwork2.ActionInvocation;
 
 /**
  * 
- * *******************************************************************
  * @className	： BreakpointByteStreamResult
- * @description	： 对StreamResult做了增强，支持断点续传方式（多线程）下载同时也支持普通方式（单线程）下载
- * @author 		： <a href="mailto:hnxyhcwdl1003@163.com">wandalong</a>
- * @date		： Feb 29, 2016 7:53:34 PM
- * @version 	V1.0 
- * *******************************************************************
+ * @description	：  对StreamResult做了增强，支持断点续传方式（多线程）下载同时也支持普通方式（单线程）下载
+ * @author 		： <a href="https://github.com/vindell">vindell</a>
+ * @date		： 2017年9月12日 下午10:57:08
+ * @version 	V1.0
  */
 public class BreakpointByteStreamResult extends ByteStreamResult {
 

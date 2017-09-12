@@ -14,10 +14,8 @@ import org.slf4j.LoggerFactory;
 import com.opensymphony.xwork2.ActionInvocation;
 /**
  * 
- * @className: ByteStreamResult
+ * @className	： ByteStreamResult
  * @description: 输出二进制数据
- * @author : <a href="mailto:hnxyhcwdl1003@163.com">wandalong</a>
- * @date : 上午10:18:00 2013-10-24
  * <b>Example:</b>
  *
  * <pre><!-- START SNIPPET: example -->
@@ -30,6 +28,9 @@ import com.opensymphony.xwork2.ActionInvocation;
  *   &lt;param name="contentDisposition"&gt;attachment;filename="document.jpg"&lt;/param&gt;
  * &lt;/result&gt;
  * <!-- END SNIPPET: example --></pre>
+ * @author 		： <a href="https://github.com/vindell">vindell</a>
+ * @date		： 2017年9月12日 下午10:56:12
+ * @version 	V1.0
  */
 public class ByteStreamResult extends StreamResultSupport {
 
