@@ -31,7 +31,7 @@ import com.oreilly.servlet.ServletUtils;
  * &lt;/result&gt;
  * <!-- END SNIPPET: example -->
  * </pre>
- * @author 		： <a href="https://github.com/vindell">vindell</a>
+ * @author 		： <a href="https://github.com/hiwepy">hiwepy</a>
  * @date		： 2017年9月12日 下午10:55:53
  * @version 	V1.0
  */

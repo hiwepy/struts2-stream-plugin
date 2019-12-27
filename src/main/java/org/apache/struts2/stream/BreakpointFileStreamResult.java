@@ -30,7 +30,7 @@ import com.opensymphony.xwork2.ActionInvocation;
  * &lt;/result&gt;
  * <!-- END SNIPPET: example -->
  * </pre>
- * @author 		： <a href="https://github.com/vindell">vindell</a>
+ * @author 		： <a href="https://github.com/hiwepy">hiwepy</a>
  * @date		： 2017年9月12日 下午10:56:45
  * @version 	V1.0
  */

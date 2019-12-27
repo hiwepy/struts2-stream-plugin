@@ -169,7 +169,7 @@ public abstract class StreamResultSupport extends StrutsResultSupport {
 	/**
 	 * 
 	 * @description	： 扩展struts自带的doExecute
-	 * @author 		： <a href="https://github.com/vindell">vindell</a>
+	 * @author 		： <a href="https://github.com/hiwepy">hiwepy</a>
 	 * @date 		：2017年9月12日 下午10:55:27
 	 * @param finalLocation
 	 * @param invocation
@@ -368,7 +368,7 @@ public abstract class StreamResultSupport extends StrutsResultSupport {
 	 * @description	： 关于下载中文文件名的问题，不同浏览器需要使用不同的编码，下载前要在Java中进行文件名编码
 	 *  			 在多数浏览器中使用 UTF8 ，而在 firefox 和 safari 中使用 ISO8859-1 。
 	 *  			 经测试在 IE、Firefox、Chorme、Safari、Opera 上都能正常显示中文文件名（只测试了较新的浏览器）
-	 * @author 		： <a href="https://github.com/vindell">vindell</a>
+	 * @author 		： <a href="https://github.com/hiwepy">hiwepy</a>
 	 * @date 		：2017年9月12日 下午10:55:18
 	 * @param request
 	 * @param name
